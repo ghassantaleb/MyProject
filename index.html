@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Football Facts Generator</title>
+</head>
+<body>
+    <div id="fact-container">
+        <h1>Football Facts Generator</h1>
+        <p id="fact-text">Click the button below to generate a football fact.</p>
+        <button id="generate-button" onclick="generateFact()">Generate Fact</button>
+        <div id="share-container">
+            <p>Share this fact:</p>
+            <input type="text" id="fact-link" readonly>
+            <button onclick="copyToClipboard()">Copy Link</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
